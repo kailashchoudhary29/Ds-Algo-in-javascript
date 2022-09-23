@@ -1,0 +1,47 @@
+https://www.flickcall.com/ ---ott share with friends
+https://poet.so/--blog post
+https://ray.so/---blog post
+https://devdocs.io/---document in one place
+https://smalldev.tools/ --user full small tools
+https://pfpmaker.com/ --profile maker
+https://roadmap.sh/ --tech road map
+https://bbooks.info/ --books downloads
+https://z-lib.org/ --books downloads
+https://stackoverflow.com/questions/38240763/xpath-difference-between-dot-and-text --- xpath
+https://help.bizagi.com/bpm-suite/en/11.1/index.htm?xpath_functions.htm --xpath
+
+https://alwane.io/ --extract color from website
+https://mrshrestha.medium.com/awesome-nice-list-treasure-explore-the-web-like-a-pro-af7f55b855ce ---tech stack update
+https://ribbet.ai/Stylize --image modification
+https://www.linkedin.com/feed/update/urn:li:activity:6969954340077776897/ -interview tips
+https://github.com/MunGell/awesome-for-beginners -technology learn
+https://awesomeopensource.com/ -open source
+https://reconshell.com/best-docker-resources/ -devops docs
+https://www.inflectra.com/support/knowledgebase/kb503.aspx -xpath docs
+https://linuxize.com/post/how-to-install-wine-on-ubuntu-20-04/ -- linux docs
+https://postcss.org/ --postcss docs 
+https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view --coding docs
+https://stackoverflow.com/questions/19874582/change-default-global-installation-directory-for-node-js-modules-in-windows --node issue
+trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+https://blog.alexellis.io/ -- kubernetes issue
+
+
+
+
+
+
+
+WBE Indie Lottery | Wannabe Entrepreneur
+Photo landscape - Lordicon
+Running Environment-based Changes from Liquibase Script in Postgres | by Yurko | SelectFrom
+FAUN Publication
+How to Get Started With Kubernetes the Right Way: DevOps Experts Weigh In | Spiceworks It Security
+Dagster
+sudheerj/javascript-interview-questions: List of 1000 JavaScript Interview Questions
+Extensions
+Recon Process
+Drunk Startups - Whiteboarding like you’ve never seen before
+Sponsor Sandro's Blog - Serverless, AWS, SaaS
+The Zed Project | Zed
+ycd/dstp: 🧪 Run common networking tests against any site.
+Top 10 uncommon DevOps tools you should know | FAUN Publication
