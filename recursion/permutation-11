@@ -1,0 +1,28 @@
+function recurPermute(ds, nums, ans, freq) {
+  if (ds.length === nums.length) {
+    ans.push([...ds]);
+    return;
+  }
+  for (let i = 0; i < nums.length; i++) {
+    if (!freq[i]) {
+      ds.push(nums[i]);
+      freq[i] = 1;
+      recurPermute(ds, nums, ans, freq);
+      freq[i] = 0;
+      ds.pop();
+    }
+  }
+}
+
+function permute(nums) {
+  let ans = [];
+  let ds = [];
+  let freq = new Array(nums.length).fill(0);
+  recurPermute(ds, nums, ans, freq);
+  return ans;
+}
+
+// Example usage
+// let nums = [1, 2, 3];
+let nums = "abc";
+console.log(permute(nums));
