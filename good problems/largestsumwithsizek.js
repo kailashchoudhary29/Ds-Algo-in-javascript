@@ -35,15 +35,12 @@ const largestsum = (array, len) => {
     if (temp > maxsum) {
       maxsum = temp;
     }
-
-    
   }
   return maxsum;
 };
 
 const result = largestsum([2, 1, 5, 1, 3, 2], 3);
 console.log(result);
-
 
 function maxSubArray(arr, k) {
   const result = [];

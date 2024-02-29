@@ -1,51 +1,42 @@
-// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct and list the numbers that are repeated
-// Example 1:
-// Input: nums = [1,2,3,1]
-// Output: true and repeated number is 1
-// Example 2:
-// Input: nums = [1,2,3,4]
-// Output: false and repeated number is null
-// Example 3:
-// Input: nums = [1,1,1,3,3,4,3,2,4,2,5,8]
-// Output: true and repeated number is 1,2,3,4
 
-const checkRepeatNumber = (array) => {
-  //   let result = [];
-  //   let count;
 
-  //   for (let i = 0; i < array.length; i++) {
-  //     for(let j= i+1;j<array.length;j++){
-  //         if(array[i] === array[j]){
+const reverseWords = (wordStr) => {
+  let len = wordStr.length;
+  let s2 = "";
 
-  //         }
-
-  //     }
-  //     // return false
-  //   }
-
-  //    return result;
-
-  let obj = {};
-
-  for (let num of array) {
-    if (!obj[num]) {
-      obj[num] = 1;
-    } else {
-      obj[num]++;
-    }
-   
+  for (let i = wordStr.length - 1; i >= 0; i--) {
+      if (wordStr[i] === ' ') {
+        let wordLen  = len - i
+        len = i - 1;
+         s2 =  s2.concat(wordStr.substr(i + 1, wordLen) );
+          s2 =  s2.concat(' ')
+          
+      }
   }
 
-  console.log(obj)
+  s2 = s2.concat(wordStr.substr(0, len + 1));
+  return s2;
+}
+
+let s = "geeks quiz practice code";
+let output = reverseWords(s);
+console.log(output);
+
+// console.log("Input:", s);
+// console.log("Output:", output);
 
 
- 
-};
 
-// const outputRepeatNum = checkRepeatNumber([1, 2, 3, 1]);
+// const reverseWords = (wordStr) =>{
+// let len = wordStr.length
+// let s2 = ""
+//   for(let i = wordStr.length -1;i>=0;i--){
+//     if(wordStr[i] == ' '){
+//       let = len - i
+//       len = i- 1;
+//       s2.concat(wordStr.substr(i+1,r))
+//     }
+//   }
 
-// console.log(outputRepeatNum);
-
-const outputRepeatNum = checkRepeatNumber([1, 1, 1, 3, 3, 4, 3, 2, 4, 2, 5, 8]);
-
-console.log(outputRepeatNum);
+//   s2.const(wordStr.substr(0,len +1))
+// }

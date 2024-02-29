@@ -17,7 +17,7 @@ const chocolate_array = (arr,m,n) =>{
  
 
     let min_diff = Number.MAX_VALUE;
-   arr.sort((a,b) => a-b)
+    arr.sort((a,b) => a-b)
    
     console.log(arr+"---")
     for(let i = 0; i + m - 1 < n; i++)
@@ -40,5 +40,6 @@ const chocolate_array = (arr,m,n) =>{
 //     9, 9, 12, 56 
 //   ]
 
-chocolate_array([3, 4, 1, 9, 56, 7, 9, 12],5,8)
+let arrayLen = 8
+chocolate_array([3, 4, 1, 9, 56, 7, 9, 12],5,arrayLen)
 

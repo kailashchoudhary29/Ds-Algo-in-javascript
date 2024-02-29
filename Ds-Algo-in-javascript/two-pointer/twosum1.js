@@ -1,6 +1,6 @@
 //two sum pointer code
 
-const { resourceUsage } = require("process");
+
 
 // const two_pointer = (array, target) => {
 //   // console.log(array,target)
@@ -42,7 +42,6 @@ const { resourceUsage } = require("process");
 //       right--;
 //     }
 
-    
 //   }
 //   return [-1,-1];
 // };
@@ -50,34 +49,23 @@ const { resourceUsage } = require("process");
 // let array = [-3, 2, 3, 3, 6, 8, 15];
 //sort array
 
-
-
-
-
-const twopointersum = (array,sum  ) =>{
-
+const twopointersum = (array, sum) => {
   let left = 0;
-  let right =array.length
+  let right = array.length;
 
-  while(left< right){
-    let target = array[left] + array[right]
-
-    if(sum == target){
-      return [array[left],array[right]]
-    }
-
-    else if(sum > target){
-left++
-    }
-    else{
-      right--
+  while (left < right) {
+    let target = array[left] + array[right];
+    if (sum == target) {
+      return [array[left], array[right]];
+    } else if (sum > target) {
+      left++;
+    } else {
+      right--;
     }
   }
 
-  return [-1,-1]
-}
-
-
+  return [-1, -1];
+};
 
 let array = [-3, -2, 3, 6, 8, 15];
 
